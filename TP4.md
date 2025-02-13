@@ -119,7 +119,7 @@ function(keys, values) {
 
 ## Exercice : Calcul matriciel avec MapReduce
 
-![ennonce](https://imgur.com/a/UnOBSit)
+![ennonce](https://i.imgur.com/6mZwX2W.png)
 
 
 ### Problème 1 - Norme de vecteurs
