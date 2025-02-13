@@ -188,4 +188,4 @@ CouchDB combine flexibilité et puissance grâce à :
 
 [![Interface Fauxton](https://raw.githubusercontent.com/apache/couchdb-documentation/main/src/images/fauxton.png)](http://localhost:5984/_utils)
 
-> *"La simplicité est la sophistication suprême."* - Léonard de Vinci
+> Amine BOUJEMAAOUI
