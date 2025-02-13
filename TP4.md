@@ -119,27 +119,7 @@ function(keys, values) {
 
 ## Exercice : Calcul matriciel avec MapReduce
 
-## Exercice n° 1
-
-Soit une matrice \( M \) de dimension \( N \times N \) représentant des liens d'un très grand nombre de pages web (soit \( N \)). Chaque lien est étiqueté par un poids (son importance).
-
-1. Proposer un modèle, sous forme de documents structurés, pour représenter une telle matrice (s’inspirer du cas **Page Rank** du moteur de recherche Google, vu en cours). Soit \( C \) la collection ainsi obtenue.
-
-2. La ligne \( i \) peut être vue comme un vecteur à \( N \) dimensions décrivant la page \( P_i \). Spécifiez le traitement **MapReduce** qui calcule la norme de ces vecteurs à partir des documents de la collection \( C \).  
-   La norme d’un vecteur \( V(v_1, v_2, \dots, v_N) \) est le scalaire :
-
-   \[
-   ||V|| = \sqrt{v_1^2 + v_2^2 + \dots + v_N^2}
-   \]
-
-3. Nous voulons calculer le produit de la matrice \( M \) avec un vecteur de dimension \( N \), \( W(w_1, w_2, \dots, w_N) \). Le résultat est un vecteur :
-
-   \[
-   \phi_i = \sum_{j=1}^{N} M_{ij} w_j
-   \]
-
-   On suppose que le vecteur \( W \) tient en mémoire RAM et est accessible comme variable statique par toutes les fonctions de **Map** ou de **Reduce**.  
-   Spécifiez le traitement **MapReduce** qui implante ce calcul.
+[test](https://imgur.com/a/UnOBSit)
 
 
 ### Problème 1 - Norme de vecteurs
